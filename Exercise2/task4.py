@@ -5,4 +5,6 @@ def desks():
     count = pupil1//2+pupil1%2+pupil2//2+pupil2%2+pupil3//2+pupil3%2
     print(count)
 
+
+
 desks()
