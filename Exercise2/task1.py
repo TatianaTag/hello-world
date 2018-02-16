@@ -1,6 +1,5 @@
-def hi():
-    print("what's your name?")
-    tname=input("Name?")
-    print("Hi, "+tname)
+﻿# Программа, которая считывает имя пользователя и приветствует его
 
-hi()
+tname=input("what's your name? ")
+print('Hi, {:s}!'.format(tname))
+

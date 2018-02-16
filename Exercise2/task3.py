@@ -1,8 +1,7 @@
-def hypot():
-    p1 = int(input("first"))
-    p2 = int(input("second"))
-    import math
-    hypo = math.sqrt(p1*p1+ p2*p2)
-    print("hypo"+ str(hypo))
+﻿#Программа, которая считывает длины катетов прямоугольного треугольника и вычисляет длину его гипотенузы
 
-hypot()
+p1 = int(input("first = "))
+p2 = int(input("second ="))
+
+hypo = (p1*p1+ p2*p2)**0.5
+print("hypo = "+ str(hypo))

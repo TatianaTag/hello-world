@@ -1,11 +1,8 @@
-def watch():
-    t1 = int(input("how much minutes?"))
-    hours = t1//60
+﻿t1 = int(input("how much minutes? "))
+hours = t1 // 60
     
-    if (hours>24):
-      hours %= 24
-    print("hours "+str(hours)) 
+hours %= 24
+print('hours {:d}'.format(hours)) 
 
-    minutes = t1%60
-    print("minutes "+str(minutes))
-watch()
+minutes = t1 % 60
+print('minutes {:d}'.format(minutes))
