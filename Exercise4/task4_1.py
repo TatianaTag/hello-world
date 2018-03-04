@@ -3,5 +3,5 @@
 
 str =''
 for i in range (1, 6):
-    print(i, sep = ' ', end = ' ')
-
+   # print(i, sep = ' ', end = ' ')
+    print(i, end=' ' if i!=5 else '\n')
