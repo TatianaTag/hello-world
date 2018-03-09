@@ -11,11 +11,11 @@ try:
         m = 0;
         a = str(x)
 
-        for i in range(0, len(a)):
-            if int(a[i])%2 == 0:
-                m = m + int(a[i]) 
+        for i in a:
+            if int(i)%2 == 0:
+                m += 1 
 
-        print('{:d}'.format(m))
+        print('Количество четных цифр {:d}'.format(m))
 except:
     print("Некорректные данные")
  
