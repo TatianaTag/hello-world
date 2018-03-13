@@ -2,4 +2,17 @@
 # (без использования цикла).
 #Удалить те элементы, значения которых не кратны 3.
 
- 
+
+import random 
+i = 0
+l1 = [random.randint(-100, 100) for i in range(0,10)]
+print('Список {}'.format(l1))
+
+i = 0
+while i < len(l1):
+    if l1[i] % 3 != 0:
+        l1.remove(l1[i])
+    else:
+        i += 1 
+
+print('Список изменённый {}'.format(l1))
