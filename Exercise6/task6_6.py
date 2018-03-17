@@ -4,7 +4,7 @@ import random
 i = 0
 l1 = []
 while i < 6:
-    l1.append(random.randint(-10, 10)**2)
+    l1.append(random.randint(-10, 10)**0.5)
     i += 1
 print('Список {}'.format(l1))
 

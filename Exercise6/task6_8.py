@@ -8,9 +8,9 @@ print('Список {}'.format(l1))
 
 l2 =[]
 i = 0
-for i in range(len(l1)):    
-    if l1[i] % 2 == 0:        
-        l2.insert(0,l1[i])
+for i in range(len(l1)):     
+    if (i + 1) % 2 == 0:        
+        l2.insert((i + 1) // 2 - 1, l1[i])
     else:
         l2.append(l1[i])
 print('Список {}'.format(l2))      
